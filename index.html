@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Snake Game</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Game Tebak Angka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Snake Game</h1>
-<p>Pakai tombol panah untuk menggerakkan kotak hijau!</p>
-<div id="gameBoard"></div>
-<script src="script.js"></script>
+  <h1>🎲 Game Tebak Angka 🎲</h1>
+  <p>Komputer memilih angka antara 1 sampai 10. Coba tebak!</p>
+
+  <input type="number" id="guess" placeholder="Masukkan angka..." min="1" max="10">
+  <button onclick="checkGuess()">Tebak!</button>
+
+  <p id="result"></p>
+  <p id="attempts">Percobaan: 0</p>
+
+  <script src="script.js"></script>
 </body>
 </html>
