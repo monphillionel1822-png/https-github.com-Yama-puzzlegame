@@ -1,1 +1,1 @@
-# https-github.com-Yama-puzzlegame
+# https-github.com-Yama-snakegame
